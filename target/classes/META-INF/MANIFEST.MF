@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: AccountApplication1
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: asish
+Implementation-Vendor-Id: com.bank.account
+Build-Jdk: 1.8.0_241
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/bank-ledger-new
+Created-By: Maven Integration for Eclipse
+Main-Class: com.bank.account.StartApplication
+

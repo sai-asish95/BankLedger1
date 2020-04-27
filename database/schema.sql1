@@ -1,0 +1,36 @@
+
+
+create table user_registration1 (
+	"id" bigint primary key,
+	first_name varchar(255),
+	last_name varchar(255),
+	address varchar(255),
+	phnum integer,
+	login_name varchar(255) unique not null
+);
+
+CREATE SEQUENCE user_registration1_seq START WITH 1 INCREMENT BY 1;
+
+INSERT INTO user_registration1 (
+	id, first_name, last_name, address, phnum, login_name)
+	VALUES (1,'virat','kohli','centre rd',999001,'virat_001');
+
+INSERT INTO user_registration1 (
+	id, first_name, last_name, address, phnum, login_name)
+	VALUES (2,'ms','dhoni','north rd',999002,'ms_002');
+
+INSERT INTO user_registration1 (
+	id, first_name, last_name, address, phnum, login_name)
+	VALUES (3,'rohit','sharma','south rd',999003,'rohit_003');
+
+INSERT INTO user_registration1 (
+	 id,first_name, last_name, address, phnum, login_name)
+	VALUES (4,'rahul','dravid','main rd',999004,'rahul_004');
+
+
+select * from user_registration1 ;
+
+INSERT INTO user_registration1 (
+	 id,first_name, last_name, address, phnum, login_name)
+	VALUES (5,'kl','rahul','mack rd',999005,'kl_005');
+

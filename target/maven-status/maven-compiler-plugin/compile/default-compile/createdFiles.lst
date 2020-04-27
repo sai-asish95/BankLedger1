@@ -1,0 +1,11 @@
+com\bank\account\service\BankAccountService.class
+com\bank\account\StartApplication.class
+com\bank\account\controller\UserController.class
+com\bank\account\model\BankAccountModel.class
+com\bank\account\repository\BankAccountRepo.class
+com\bank\account\repository\UserRegistrationRepo.class
+com\bank\account\model\UserModel.class
+com\bank\account\entity\BankAccount.class
+com\bank\account\controller\BankAccountController.class
+com\bank\account\service\UserRegistrationService.class
+com\bank\account\entity\UserRegistration.class
